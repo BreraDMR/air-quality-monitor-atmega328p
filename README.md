@@ -1,4 +1,16 @@
-# Indoor Air Quality Analyzer — ATmega328P Coursework Project
+<div align="center">
+
+# 📟 Indoor Air-Quality Analyzer — ATmega328P
+
+**Coursework design for an ATmega328P air-quality monitor (DHT11 + MQ-2 on a 16×2 LCD) — translated to English and brought to life with an Arduino sketch and unit-tested sensor math.**
+
+[![Arduino](https://img.shields.io/badge/Arduino-C%2B%2B-00979D?logo=arduino&logoColor=white&style=for-the-badge)](example-code/air_quality_monitor/)
+[![ATmega328P](https://img.shields.io/badge/ATmega328P-AVR-A30000?style=for-the-badge)](docs/report.md)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](example-code/mq2_calc.py)
+[![unit tests](https://img.shields.io/badge/unit%20tests-7%2F7%20passing-brightgreen?style=for-the-badge)](example-code/tests/)
+[![license](https://img.shields.io/badge/license-PolyForm--NC-blue?style=for-the-badge)](LICENSE)
+
+</div>
 
 A coursework project ("курсова робота") designing a microprocessor-based
 indoor air quality monitor: an ATmega328P (Arduino Nano) reading a DHT11
@@ -13,7 +25,10 @@ actual firmware; this repo adds an Arduino sketch implementing the
 report's described algorithm as example code, clearly marked as written
 for the portfolio rather than part of the graded submission.
 
-![Schematic](diagrams/schematic.png)
+<div align="center">
+  <img src="diagrams/schematic.png" width="760" alt="Circuit schematic"/>
+  <br/><sub><b>Circuit schematic</b> — ATmega328P (Arduino Nano) with DHT11, MQ-2 and an I²C 16×2 LCD, USB / Li-Po dual supply.</sub>
+</div>
 
 ## Repository layout
 
